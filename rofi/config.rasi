@@ -7,6 +7,7 @@ configuration {
 * {
     font:   "JetBrainsMono 12";
 
+    whiteCol:  #ffffff;
     nord0:     #2e3440;
     nord1:     #3b4252;
     nord2:     #434c5e;
@@ -51,6 +52,10 @@ inputbar {
     spacing:    12px;
     border-radius: 16px;
     children:   [ prompt, entry ];
+}
+
+entry {
+    text-color: @whiteCol; 
 }
 
 prompt, entry, element-text, element-icon {
