@@ -1,7 +1,7 @@
 #!/bin/sh
 
 picom &
-feh --bg-scale ~/Downloads/cyberpunk.jpg &
+feh --bg-scale ~/cyberpunk.jpg &
 
 # Kill any existing Polybar instances
 killall -q polybar
