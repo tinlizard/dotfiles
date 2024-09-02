@@ -28,7 +28,7 @@ for program in "${programs[@]}"; do
 			sudo xbps-install "$program"
 		elif [ $1 = 'debian' ] || [ $1='ubuntu' ] || [ $1 = 'mint' ]; then
 			sudo apt install "$program"
-		elif [ $1 = 'gentoo' ] then;
+		elif [ $1 = 'gentoo' ]; then
 			sudo emerge --ask "$program"
 		else 
 			echo "Unsupported linux distro. Try installing manually, or editing 
