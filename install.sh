@@ -1,18 +1,18 @@
 #!/bin/bash
 #check if ~/.config exists and copy config files to ~/.config
-if [ -d "~/.config" ]; then
-	cp -r ./*/ ~/.config
+if [ -d ~/.config ]; then
+	sudo cp -r ./*/ ~/.config
 else 
 	mkdir ~/.config
-	cp -r ./*/ ~/.config
+	sudo cp -r ./*/ ~/.config
 fi
 
 #check if ~/.xinitrc exists and copy config files to ~/.xinitrc
-if [ -f "~/.xinitrc" ]; then
-	cp .xinitrc ~/.xinitrc
+if [ -f ~/.xinitrc ]; then
+	sudo cp .xinitrc ~/.xinitrc
 else 
 	touch ~/.xinitrc
-	cp .xinitrc ~/.xinitrc
+	sudo cp .xinitrc ~/.xinitrc
 fi
 
 #install stuff if not installed
