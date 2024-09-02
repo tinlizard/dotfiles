@@ -1,0 +1,30 @@
+* {
+  font-size: 20px;
+  font-family: JetBrainsMono, monospace, Arial;
+}
+
+window#waybar {
+  background: #000000;
+  color: #ffffff;
+  border: #3bb6e2;
+  padding: 25px;
+}
+
+#workspaces button.focused {
+   background-color: #3bb6e2;
+}
+
+#workspaces button:hover {
+   background: #ffffff;
+}
+
+#cpu,
+#network,
+#battery,
+#pulseaudio,
+#memory,
+#temperature,
+#clock,
+#disk {
+  padding: 15px;
+}
