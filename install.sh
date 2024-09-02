@@ -16,7 +16,7 @@ else
 fi
 
 #install stuff if not installed
-programs=(picom rofi sway i3 polybar fuzzel)
+programs=(picom rofi sway i3 polybar fuzzel waybar)
 for program in "${programs[@]}"; do
 	if command -v "$program" &> /dev/null; then
 		echo "$program is already installed, proceeding to next program..."
