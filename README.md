@@ -1,1 +1,1 @@
-My arch linux config
+My reproducable Linux config with an install bash script.
