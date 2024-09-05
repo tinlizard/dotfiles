@@ -1,5 +1,5 @@
 #!/bin/bash
-mv cyberpunk.jpg ~/
+cp cyberpunk.jpg ~/
 #check if ~/.config exists and copy config files to ~/.config
 if [ -d ~/.config ]; then
 	sudo cp -r ./*/ ~/.config
