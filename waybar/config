@@ -9,7 +9,7 @@
         "memory",
         "temperature",
 	"battery",
-	"clock"
+        "custom/time",
     ],
     "sway/window": {
         "max-length": 50
@@ -72,7 +72,8 @@
         "format": "{capacity}% {icon}",
         "format-icons": ["", "", "", "", ""]
     },
-    "clock": {
-        "format-alt": "{:%a, %d. %b  %H:%M}"
-    },
+    "custom/time": {
+       "exec": "$HOME/time.sh",
+       "interval": 1
+    }
 }
