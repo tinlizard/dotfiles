@@ -73,6 +73,7 @@
         "format-icons": ["", "", "", "", ""]
     },
     "custom/time": {
+       "format": "  {}",
        "exec": "$HOME/time.sh",
        "interval": 1
     }
