@@ -1,6 +1,6 @@
 * {
   font-size: 20px;
-  font-family: JetBrainsMono, monospace, Arial;
+  font-family: JetBrainsMonoNerdFont, monospace, Arial;
 }
 
 window#waybar {
@@ -24,7 +24,7 @@ window#waybar {
 #pulseaudio,
 #memory,
 #temperature,
-#clock,
+#custom-time,
 #disk {
   padding: 15px;
 }
