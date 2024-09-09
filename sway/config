@@ -129,28 +129,6 @@ mode "resize" {
 	bindsym $mod+r mode "default"
 }
 
-#
-#bar {
- #       position         $bar_setting_position
-#	mode             $bar_setting_mode
-#	font             $bar_setting_font
-#	separator_symbol $bar_setting_separator
-#	status_command   $bar_setting_statusCommand
-#	tray_output      $bar_setting_trayoutput
-#	padding 5px
-
-#	colors {
-#		background   $bar_color_background
-#		statusline   $bar_color_statusline
-#		separator    $bar_color_separator
-#
-#		focused_workspace  $bar_color_workspace_focused_bg  $bar_color_workspace_focused_bg  $bar_color_workspace_focused_fg
-#		active_workspace   $bar_color_workspace_active_bg   $bar_color_workspace_active_bg   $bar_color_workspace_active_fg
-#		inactive_workspace $bar_color_workspace_inactive_bg $bar_color_workspace_inactive_bg $bar_color_workspace_inactive_fg
-#		urgent_workspace   $bar_color_workspace_urgent_bg   $bar_color_workspace_urgent_bg   $bar_color_workspace_urgent_fg
-#	}
-#}
-
 bindsym $mod+r mode "resize"
 
 ### Gaps ###
