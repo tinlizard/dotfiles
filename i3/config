@@ -22,7 +22,7 @@ set $wm_color_background             #2E3440
 
 set $bar_setting_position            top
 set $bar_setting_mode                dock
-set $bar_setting_font                pango:JetBrainsMono Bold 14
+set $bar_setting_font                pango:JetBrainsMonoNerdFont Bold 14
 set $bar_setting_separator           " - "
 set $bar_setting_statusCommand       i3status
 set $bar_setting_trayoutput          full
