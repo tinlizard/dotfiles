@@ -1,9 +1,9 @@
 set $mod                             Mod1
 set $smod                            Shift
 set $wm_setting_font                 pango:Source Sans Pro, Semibold 11
-set $wm_setting_gap_width            15
-set $wm_setting_gap_heigth           15
-set $wm_setting_border_size          6
+set $wm_setting_gap_width            10
+set $wm_setting_gap_heigth           10
+set $wm_setting_border_size          3
 set $wm_setting_key_left             Left
 set $wm_setting_key_down             Down
 set $wm_setting_key_up               Up
@@ -132,7 +132,7 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 ### Gaps ###
-gaps inner 18px
+gaps inner 8px
 gaps outer 5px
 gaps horizontal $wm_setting_gap_width
 gaps vertical   $wm_setting_gap_heigth
