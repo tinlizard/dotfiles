@@ -12,7 +12,6 @@ set $wm_setting_key_right            Right
 set $wm_setting_app_terminal         kitty
 set $wm_setting_app_browser          firefox
 set $wm_setting_app_launcher         fuzzel 
-set $wm_setting_app_compositor       picom
 
 set $wm_color_border_active_bg       #3BB6E2
 set $wm_color_border_active_fg       #3B4252
@@ -55,8 +54,7 @@ bindsym $mod+$smod+v exec systemctl suspend
 
 exec --no-startup-id xautolock -time 60 -locker "systemctl suspend"
 
-# Run a window compositor (for effects like transparency or full VSync)
-exec_always --no-startup-id $wm_setting_app_compositor
+#background for sway/wayland
 exec swaybg -i ~/cyberpunk.jpg
 
 #Run waybar
